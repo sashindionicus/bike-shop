@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
   .intro {
     margin-top: 60px;
     height: 563px;
-    background: #373136 url(../img/bike-background-intro.png) center no-repeat;
+    background: #373136 url(../img/intro/bike-background-intro.png) center no-repeat;
     background-size: cover;
 
     display: flex;
@@ -105,3 +105,237 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     justify-content: space-between;
   }
+
+/* CONTENT */
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFF;
+  }
+
+  /* TOP CONTENT */
+    .top-content {
+      height: 296px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* LEFT */
+    .bike-sale{
+      position: relative;
+      width: 475px;
+      height: 100%;
+    }
+    .bike-banerl{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .title-bikel{
+      position: absolute;
+      transform: rotate(-43deg);
+      top: 37px;
+      left: 12px;
+
+      font-family: 'Bebas Neue', cursive;
+      font-size: 21px;
+      font-weight: 600;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+    }
+    .bike-bikel{
+      display: block;
+      margin: 30px auto;
+    }
+
+
+    /* RIGHT */
+    .baner-sale {
+      position: relative;
+      font-family: 'Doppio One', sans-serif;
+      width: 525px;
+      height: 100%;
+
+      background-color: #EFDFDC;
+    }
+
+    .bg-for{
+      position: absolute;
+      top: 38px;
+      left: -14px;
+
+    }
+
+    .sale-baner{
+      position: absolute;
+      top: 0;
+      right: 5px;
+
+      font-size: 150px;
+      margin: -44px 0;
+      opacity: 0.07;
+      text-transform: uppercase;
+
+    }
+
+    .text-baner-sale {
+      position: relative;
+      height: 249px;
+      padding-top: 23.5px;
+      padding-left: 35px;
+    }
+
+    .name-baner {
+      font-size: 19px;
+      font-weight: 700;
+    }
+
+    .author-baner {
+      padding-top: 12px;
+
+      font-size: 12px;
+      font-style: italic;
+      color: #A28077;
+    }
+
+    .price-baner {
+      padding: 22px 0;
+
+      font-family: 'Bebas Neue', cursive;
+      font-size: 61px;
+      font-weight: 700;
+    }
+
+    .btn-baner {
+      margin: 25px 0;
+      border: 2px solid;
+      padding: 14px 43px;
+
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #A28077;
+    }
+
+    .question-baner {
+      padding-top: 45px;
+
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .rating-baner {
+      width: 164px;
+
+      display: flex;
+      justify-content: space-between;
+
+      position: absolute;
+      top: 197px;
+      right: 48px;
+    }
+
+    .title-rating {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+  /* MIDDLE CONTENT */
+  .middle-content {
+    position: relative;
+    height: 342px;
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .one-middle,
+  .two-middle,
+  .three-middle,
+  .four-middle {
+    width: 250px;
+    padding-right: 45px;
+  }
+
+  .png-middle-bike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .title-middle-bike {
+    position: absolute;
+    width: 218px;
+    bottom: 80px;
+
+    padding-left: 10px;
+  }
+
+  .name-middle-bike {
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 0 0 6px;
+  }
+
+  .author-middle-bike {
+    font-size: 12px;
+    font-style: italic;
+
+    color: #A28077;
+
+    padding: 0 0 14px;
+  }
+
+  .price-middle-bike {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+  }
+
+  .btn-middle-bike {
+    position: absolute;
+    padding: 10px 17px;
+    border: 2px solid;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #A28077;
+  }
+
+  .middle-container{
+    position: absolute;
+    top: 84px;
+    right: 22px;
+
+    width: 47px;
+    height: 75px;
+
+    opacity: 0.7;
+    background:#F7EDED url(/img/content/middle/bg-for.png)  center no-repeat;
+    background-size: cover;
+  }
+
+  .arrow {
+    margin: 25px 0;
+
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+
+  }
+
+  .arrow-left {
+    transform: rotate(45deg);
+  }
+
