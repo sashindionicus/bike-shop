@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #A28077;
   }
 
-  .middle-container{
+  .middle-container {
     position: absolute;
     top: 84px;
     right: 22px;
@@ -337,5 +337,37 @@ h1, h2, h3, h4, h5, h6, p {
 
   .arrow-left {
     transform: rotate(45deg);
+  }
+
+  /* BOTTOM CONTENT */
+  .bottom-content {
+    height: 367px;
+    width: 100%;
+  }
+  .line-bottom {
+    height: 2px;
+    background-color: #E3D0CE;
+  }
+  .banner-bottom {
+    height: 363px;
+    position: relative;
+    background: #373136 url(../img/content/bottom-baner/bg-bottom.png) center no-repeat;
+    background-size: cover;
+  }
+  .btn-bottom-baner {
+    display: inline-block;
+		vertical-align: top;
+    margin: 182px 0 0 406px;
+
+    padding: 13px 26px;
+    border: 3px solid;
+
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFF;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
   }
 
