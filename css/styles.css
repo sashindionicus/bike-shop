@@ -371,3 +371,25 @@ h1, h2, h3, h4, h5, h6, p {
     cursor: pointer;
   }
 
+/* BOTTOM-MENU */
+  .menu {
+    height: 69px;
+  }
+
+  .menu_inner {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  .a-menu {
+    top: 50%;
+    left: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    margin-right: 25px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+  }
